@@ -16,6 +16,8 @@ $(call inherit-product, vendor/derp/config/common_full_phone.mk)
 # Inherit from jasmine_sprout device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+USE_LEGACY_BOOTANIMATION := true
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := jasmine_sprout
 PRODUCT_MANUFACTURER := Xiaomi
