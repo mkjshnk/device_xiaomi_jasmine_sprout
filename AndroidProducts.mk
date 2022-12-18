@@ -5,11 +5,11 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# inherit MI A2 device config for ShapeShiftOS
+# inherit MI A2 device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_jasmine_sprout.mk
+    $(LOCAL_DIR)/lineage_jasmine_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_jasmine_sprout-user \
-    cherish_jasmine_sprout-userdebug \
-    cherish_jasmine_sprout-eng
+    lineage_jasmine_sprout-user \
+    lineage_jasmine_sprout-userdebug \
+    lineage_jasmine_sprout-eng
